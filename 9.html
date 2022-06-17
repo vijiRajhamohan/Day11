@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>
+               Form
+              elements.
+            </title>
+          </head>
+          <body>
+            <form action="">
+              <!--<input> -->
+              <label for="fname">First name:</label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Enter your name"
+              /><br>
+        
+              <!-- <select> -->
+              <label for="cars">Colors:</label><br>
+              <select id="cars">
+                <option selected>Select one below</option>
+                <option>Red</option>
+                <option>Yellow</option>
+                <option>orange</option>
+                <option>Bule</option>
+              </select><br>
+        
+              <!-- <textarea> -->
+              <textarea
+                name="comments"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Enter your comments here..."
+              ></textarea><br>
+        
+              <!-- <button> -->
+              <button type="button" >
+                Click me!
+              </button><br>
+        
+              <!-- <fieldset>  & <legend> -->
+              <fieldset>
+                <legend>Details:</legend>
+                <label for="fname">First name:</label><br />
+                <input type="text" id="fname" /><br />
+                <label for="lname">Last name:</label><br />
+                <input type="text" id="lname" /><br /><br />
+                <input type="submit" value="Submit" />
+              </fieldset><br>
+        
+              <!-- <datalist> &  <option> -->
+        
+              <input list="rainbow" name="rainbow" />
+              <datalist id="browsers">
+                <option value="violet"></option>
+                <option value="indigo"></option>
+                <option value="blue"></option>
+                <option value="green"></option>
+                <option value="yellow"></option>
+                <option value="orange"></option>
+                <option value="red"></option>
+              </datalist>
+        <br>
+              <!-- <output> -->
+              
+        
+              <!-- <optgroup> -->
+              <label for="color">Colors</label>
+              <select id="color">
+                <option selected>Select one below</option>
+                <optgroup label="Medium Range">
+                  <option>Volvo</option>
+                  <option>Skoda</option>
+                </optgroup>
+                <optgroup label="High Range">
+                  <option>BMW</option>
+                  <option>Audi</option>
+                </optgroup>
+              </select>
+            </form>
+            <a href="./10.html">GoTO Task 10</a>
+          </body>
+        </html>
+      
